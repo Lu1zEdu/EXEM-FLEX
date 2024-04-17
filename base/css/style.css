@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 #cabecalho{
-    background-color: aquamarine;
-    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    h1{
+        flex-grow: 10;
+        margin: 10px;
+        flex-shrink: 1;
+        flex-basis: 20px;
+    }
 }
-nav{
-    list-style-type: none;
-}
+
